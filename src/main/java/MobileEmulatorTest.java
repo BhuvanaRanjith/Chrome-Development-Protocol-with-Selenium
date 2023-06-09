@@ -16,8 +16,6 @@ public class MobileEmulatorTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         ChromeDriver driver = new ChromeDriver(options);
-
-
         DevTools devTools = driver.getDevTools();
         devTools.createSession();
         //send commends to CDP Methods-> CDP methods will invoke and get access to chrome dev tools
