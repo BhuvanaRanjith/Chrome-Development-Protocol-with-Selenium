@@ -5,8 +5,8 @@
       <classes>
           <class name="SetGeoLocation"></class>
       <class name="NetworkLogActivity">
-
-      </class>
+               </class>
+          <class name="NetworkMocking"></class>
 
 
       </classes>

@@ -43,6 +43,7 @@ public class NetworkLogActivity {
         });
         driver.get("https://rahulshettyacademy.com/angularAppdemo/");
         driver.findElement(By.xpath("//button[text()=' Virtual Library ']")).click();
+        driver.close();
 
     }
 }
