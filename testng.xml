@@ -7,8 +7,7 @@
       <class name="NetworkLogActivity">
                </class>
           <class name="NetworkMocking"></class>
-
-
+          <class name="NetworkFailRequest"></class>
       </classes>
 
 
