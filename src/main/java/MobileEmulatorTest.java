@@ -18,7 +18,7 @@ public class MobileEmulatorTest {
         ChromeDriver driver = new ChromeDriver(options);
         DevTools devTools = driver.getDevTools();
         devTools.createSession();
-        //send commends to CDP Methods-> CDP methods will invoke and get access to chrome dev tools
+        //send commends to CDP Methods-> CDP methods will invoke and get access to Chrome dev tools
         devTools.send(Emulation.setDeviceMetricsOverride(600, 1000, 50, true, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty()));
         driver.get("https://rahulshettyacademy.com/angularAppdemo/");
 

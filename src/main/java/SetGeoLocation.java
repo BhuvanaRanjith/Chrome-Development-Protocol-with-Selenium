@@ -3,14 +3,16 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.devtools.DevTools;
+import org.testng.annotations.Test;
 
 
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
-
+@Test
 public class SetGeoLocation {
-    public static void main(String[] args) throws InterruptedException {
+
+   public void setGeoLocation() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\IamBh\\IdeaProjects\\SeleniumFeatureLatest\\src\\Driver\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
 

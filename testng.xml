@@ -2,6 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/IamBh/IdeaProjects/SeleniumFeatureLatest">
-        <classes/>
+      <classes>
+          <class name="SetGeoLocation"></class>
+      <class name="NetworkLogActivity">
+
+      </class>
+
+
+      </classes>
+
+
     </test>
-</suite> 
+</suite>
