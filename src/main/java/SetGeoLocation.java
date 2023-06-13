@@ -13,7 +13,7 @@ public class SetGeoLocation {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\IamBh\\IdeaProjects\\SeleniumFeatureLatest\\src\\Driver\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        {
+
 
             options.addArguments("--remote-allow-origins=*");
             ChromeDriver driver = new ChromeDriver(options);
@@ -21,8 +21,8 @@ public class SetGeoLocation {
             DevTools devTools = driver.getDevTools();
             devTools.createSession();
             Map<String,Object> locationMap = new HashMap<>();
-            locationMap.put("latitude",40);
-            locationMap.put("longitude", 122);
+            locationMap.put("latitude",46);
+            locationMap.put("longitude", 2);
             locationMap.put("accuracy", 1);
             driver.executeCdpCommand("Emulation.setGeolocationOverride", locationMap);
             driver.get("https://www.google.com/");
@@ -36,5 +36,5 @@ public class SetGeoLocation {
             driver.close();
 
         }
-    }
+
 }
