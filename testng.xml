@@ -8,6 +8,7 @@
                </class>
           <class name="NetworkMocking"></class>
           <class name="NetworkFailRequest"></class>
+          <class name="BlockNetworkRequest"></class>
       </classes>
 
 
