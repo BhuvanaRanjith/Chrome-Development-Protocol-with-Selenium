@@ -10,6 +10,7 @@
           <class name="NetworkFailRequest"></class>
           <class name="BlockNetworkRequest"></class>
           <class name="BasicAuthentication"></class>
+          <class name="ConsoleLogCapture"></class>
       </classes>
 
 
