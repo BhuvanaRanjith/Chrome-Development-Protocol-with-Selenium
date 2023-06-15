@@ -9,6 +9,7 @@
           <class name="NetworkMocking"></class>
           <class name="NetworkFailRequest"></class>
           <class name="BlockNetworkRequest"></class>
+          <class name="BasicAuthentication"></class>
       </classes>
 
 
