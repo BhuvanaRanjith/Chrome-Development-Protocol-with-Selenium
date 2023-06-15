@@ -31,6 +31,7 @@ public class NetworkMocking {
                 devTools.send(Fetch.continueRequest(request.getRequestId(), Optional.of(request.getRequest().getUrl()), Optional.ofNullable(request.getRequest().getMethod()),Optional.empty(),Optional.empty()));
             }
         });
+
         driver.get("https://rahulshettyacademy.com/angularAppdemo/");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//button[text()=' Virtual Library ']")).click();
