@@ -21,6 +21,7 @@ public class BasicAuthentication {
          ((HasAuthentication)driver).register(uriPredicate, UsernameAndPassword.of("foo","bar"));
         driver.get("http://httpbin.org/basic-auth/foo/bar");
         driver.close();
+        System.out.println("pull request commited");
 
     }
 }
